@@ -1,0 +1,38 @@
+{
+  "tco1": {
+    "found": "elurikiran29@gmail.com",
+    "pass": "Kiran@1095",
+    "expectedMessage": "valid username and valid password"
+  },
+  "tco2": {
+    "found": "kiraneluri@gmail",
+    "pass": "Kiran@1095",
+    "expectedMessage": "invalid username and valid password"
+  },
+  "tco3": {
+    "found": "elurikiran29@gmail.com",
+    "pass": "",
+    "expectedMessage": "blank password"
+  },
+  "tco4": {
+    "found": "honeysri365@gmail.com",
+    "pass": "Netflix@1804",
+    "expectedMessage": "valid username and valid password "
+
+  },
+  "tco5": {
+    "found": "",
+    "pass": "Kiran@1095",
+    "expectedMessage": "blank username "
+  },
+  "tc06":{
+    "found": "",
+    "pass": "",
+    "expectedMessage": "blank username and blank password "
+  },
+  "tco7":{
+    "found": "honeysri365@gmail.com",
+    "pass": "iuiui
+    "expectedMessage": "valid username and invalid password"
+  }
+}
